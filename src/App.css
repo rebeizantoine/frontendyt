@@ -1,0 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* add the class .font to each component*/
+.font {
+  font-family: 'Roboto', sans-serif;
+}

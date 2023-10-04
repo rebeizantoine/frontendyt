@@ -1,0 +1,217 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #846F63;
+}
+
+button {
+    background-color: #846F63;
+    border: 2px solid #846F63;
+    color: #F5EBE0;
+    padding: 8px 15px;
+    border-radius: 35px;
+    cursor: pointer;
+    width: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #846F63;
+    color: #846F63;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 130px;
+    padding: 20px 0px;
+    text-transform: uppercase
+}
+
+p {
+    font-size: 20px;
+}
+
+fieldset {
+    color: #846F63;
+    border: 2px solid #846F63;
+    border-radius: 35px;
+    padding: 20px 45px;
+}
+
+input,
+textarea {
+    margin: 5px;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo-maya {
+    height: 50px;
+    margin-left: 100px;
+    padding: 15px 0px;
+}
+
+.header p {
+    margin: auto;
+}
+
+.log-out {
+    margin-right: 100px;
+}
+
+.hr-header {
+    width: 100%;
+    border: 2px solid #846F63;
+}
+
+/* Sidebar */
+
+.sidebar {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 120px;
+    background: #846F63;
+    overflow-x: hidden;
+    padding: 8px 0;
+    bottom: 0px;
+}
+
+.sidebar a {
+    padding: 15px;
+    text-decoration: none;
+    border: 2px solid #846F63;
+    font-size: 20px;
+    color: #F5EBE0;
+    display: block;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background-color: #F5EBE0;
+    border: 2px solid #846F63;
+    border-radius: 35px;
+    color: #846F63;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-left: 140px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+/* CV section */
+
+.cv-fieldset {
+    margin-top: 40px;
+}
+
+.upload-cv {
+    display: flex;
+    align-items: center;
+}
+
+/* About section */
+
+.edit-about {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Experience section */
+
+.single-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.single-experience p{
+    margin-bottom: 10px;
+}
+
+.label-and-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.label-and-input {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.label-and-input input {
+    width: 400px;
+    margin-left: 10px;
+}
+
+
+.button-container {
+    display: flex;
+    width: 100%;
+}
+
+/* Skills section */
+
+.skill-icon {
+    display: flex;
+    align-items: flex-start;
+}
+
+.replace-icon {
+    margin: 0px 6px;
+}
+
+/* Projects section */
+
+.project-title,
+.project-subtitle,
+.project-description,
+.project-video,
+.project-deployed,
+.project-picture {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-title label,
+.project-subtitle label,
+.project-description label,
+.project-video label,
+.project-deployed label,
+.project-picture label {
+    flex: 1;
+}
+
+.project-title input,
+.project-subtitle input,
+.project-description input,
+.project-video input,
+.project-deployed input,
+.project-picture input {
+    flex: 3;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.project-picture {
+    display: flex;
+    align-items: flex-start;
+}
